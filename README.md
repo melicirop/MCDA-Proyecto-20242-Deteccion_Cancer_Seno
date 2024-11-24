@@ -15,7 +15,7 @@ Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar
 
 * Procesamiento de Imágenes:
 
-Conversión de imágenes en formato DICOM a PNG.
+    * Conversión de imágenes en formato DICOM a PNG.
 Generación de mapas de calor con el modelo VGG16 preentrenado.
 Redimensionamiento y normalización de imágenes.
 

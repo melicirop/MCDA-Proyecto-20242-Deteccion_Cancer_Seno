@@ -58,3 +58,16 @@ pip install -r requirements.txt
 
 Imágenes: Almacenadas en subcarpetas según el paciente.
 Datos Tabulares: Archivo CSV con columnas como edad, densidad, BIRADS, etc.
+
+## Resultados
+Matriz de Confusión
+
+
+Métrica F1-Score
+Resalta los valores obtenidos durante el entrenamiento y la validación.
+
+## Autores
+Mateo Holguin Carvalho
+Melissa Andrea Ciro
+Fabian Sanchez Martinez
+Jorge Zapata Posada

@@ -16,21 +16,45 @@ Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar
 * Procesamiento de Imágenes:
 
     * Conversión de imágenes en formato DICOM a PNG.
-Generación de mapas de calor con el modelo VGG16 preentrenado.
-Redimensionamiento y normalización de imágenes.
+    * Generación de mapas de calor con el modelo VGG16 preentrenado.
+    * Redimensionamiento y normalización de imágenes.
 
 * Procesamiento de Datos Tabulares:
 
-Escalado de características clínicas (edad, densidad, etc.) mediante StandardScaler.
-Combinación con características extraídas de imágenes.
+    * Escalado de características clínicas (edad, densidad, etc.) mediante StandardScaler.
+    * Combinación con características extraídas de imágenes.
 
 * Entrenamiento y Evaluación:
 
-Modelo combinado con ResNet18 como rama de imágenes.
-Métrica de evaluación: F1-Score.
-Generación de matriz de confusión para evaluar el rendimiento.
+    * Modelo combinado con ResNet18 como rama de imágenes.
+    * Métrica de evaluación: F1-Score.
+    * Generación de matriz de confusión para evaluar el rendimiento.
 
 * Despliegue:
 
-Interfaz amigable en Gradio para subir imágenes y características clínicas.
-Predicción de clase (Cáncer o No Cáncer) con confianza asociada.
+    * Interfaz amigable en Gradio para subir imágenes y características clínicas.
+    * Predicción de clase (Cáncer o No Cáncer) con confianza asociada.
+
+## Tecnologías Utilizadas
+
+Python (Librerías principales):
+* PyTorch
+* torchvision
+* TensorFlow/Keras (para generación de heatmaps)
+* Scikit-learn
+* Gradio
+* OpenCV
+* Pillow
+
+## Requisitos
+
+1. Instalar las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Estructura esperada del dataset:
+
+Imágenes: Almacenadas en subcarpetas según el paciente.
+Datos Tabulares: Archivo CSV con columnas como edad, densidad, BIRADS, etc.

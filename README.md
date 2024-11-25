@@ -67,10 +67,50 @@ Imágenes: Almacenadas en subcarpetas según el paciente.
 ## Resultados
 Matriz de Confusión
 
+
+|                  | Predicción: Positivo | Predicción: Negativo |
+|------------------|-----------------------|-----------------------|
+| **Real: Positivo** | Verdadero Positivo (TP) | Falso Negativo (FN)   |
+| **Real: Negativo** | Falso Positivo (FP)     | Verdadero Negativo (TN) |
+
+Donde:
+- **TP** (True Positive): Predicciones correctas donde el modelo identificó correctamente los casos positivos.
+- **FN** (False Negative): Casos positivos que el modelo identificó incorrectamente como negativos.
+- **FP** (False Positive): Casos negativos que el modelo identificó incorrectamente como positivos.
+- **TN** (True Negative): Predicciones correctas donde el modelo identificó correctamente los casos negativos.
+
+
 ![Matriz de confusion](https://github.com/melicirop/MCDA-Proyecto-20242-Deteccion_Cancer_Seno/blob/main/matriz_confusion.png)
 
 Métrica F1-Score
 Resalta los valores obtenidos durante el entrenamiento y la validación.
+
+### Métricas derivadas de la Matriz de Confusión
+
+1. **Precisión (Precision):**
+   \[
+   \text{Precision} = \frac{TP}{TP + FP}
+   \]
+   - **TP**: Verdaderos Positivos
+   - **FP**: Falsos Positivos
+
+2. **Exhaustividad (Recall o Sensitivity):**
+   \[
+   \text{Recall} = \frac{TP}{TP + FN}
+   \]
+   - **TP**: Verdaderos Positivos
+   - **FN**: Falsos Negativos
+
+3. **F1-Score:**
+   \[
+   F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+   \]
+
+   El F1-Score es una métrica que combina precisión y exhaustividad en un solo valor armónico, siendo especialmente útil cuando los datos están desbalanceados.
+
+Resultados del proceso:
+
+* Test Loss: 0.0291, Test F1: 0.9845
 
 ## Autores
 Mateo Holguin Carvalho

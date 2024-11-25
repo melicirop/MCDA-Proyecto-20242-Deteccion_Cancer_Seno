@@ -66,7 +66,8 @@ Imágenes: Almacenadas en subcarpetas según el paciente.
 
 ## Resultados
 Matriz de Confusión
-!(matriz_confusion.png)
+
+![Matriz de confusion](https://github.com/melicirop/MCDA-Proyecto-20242-Deteccion_Cancer_Seno/blob/main/matriz_confusion.png)
 
 Métrica F1-Score
 Resalta los valores obtenidos durante el entrenamiento y la validación.

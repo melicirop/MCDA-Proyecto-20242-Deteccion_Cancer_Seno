@@ -43,7 +43,7 @@ Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar
 
 ## Tecnologías Utilizadas
 
-Python (Librerías principales):
+Python version 3.11.7 (Librerías principales):
 * PyTorch
 * torchvision
 * TensorFlow/Keras (para generación de heatmaps)

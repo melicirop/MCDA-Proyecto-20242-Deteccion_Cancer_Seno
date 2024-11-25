@@ -65,7 +65,7 @@ pip install -r requirements.txt
 Imágenes: Almacenadas en subcarpetas según el paciente.
 
 ## Resultados
-Matriz de Confusión
+### Matriz de Confusión
 
 
 |                  | Predicción: Positivo | Predicción: Negativo |
@@ -88,20 +88,25 @@ Resalta los valores obtenidos durante el entrenamiento y la validación.
 ### Métricas derivadas de la Matriz de Confusión
 
 1. **Precisión (Precision):**
+
    \[
    \text{Precision} = \frac{TP}{TP + FP}
    \]
    - **TP**: Verdaderos Positivos
    - **FP**: Falsos Positivos
 
+
 2. **Exhaustividad (Recall o Sensitivity):**
+
    \[
    \text{Recall} = \frac{TP}{TP + FN}
    \]
    - **TP**: Verdaderos Positivos
    - **FN**: Falsos Negativos
 
+
 3. **F1-Score:**
+
    \[
    F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
    \]

@@ -89,27 +89,23 @@ Resalta los valores obtenidos durante el entrenamiento y la validación.
 
 1. **Precisión (Precision):**
 
-   \[
-   \text{Precision} = \frac{TP}{TP + FP}
-   \]
+![Precisión](https://latex.codecogs.com/png.latex?%5Ctext%7BPrecision%7D%20%3D%20%5Cfrac%7BTP%7D%7BTP%20&plus;%20FP%7D)
+
    - **TP**: Verdaderos Positivos
    - **FP**: Falsos Positivos
 
 
 2. **Exhaustividad (Recall o Sensitivity):**
 
-   \[
-   \text{Recall} = \frac{TP}{TP + FN}
-   \]
+![Recall](https://latex.codecogs.com/png.latex?%5Ctext%7BRecall%7D%20%3D%20%5Cfrac%7BTP%7D%7BTP%20&plus;%20FN%7D)
+
    - **TP**: Verdaderos Positivos
    - **FN**: Falsos Negativos
 
 
 3. **F1-Score:**
 
-   \[
-   F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-   \]
+![F1-Score](https://latex.codecogs.com/png.latex?F1%20%3D%202%20%5Ctimes%20%5Cfrac%7B%5Ctext%7BPrecision%7D%20%5Ctimes%20%5Ctext%7BRecall%7D%7D%7B%5Ctext%7BPrecision%7D%20&plus;%20%5Ctext%7BRecall%7D%7D)
 
    El F1-Score es una métrica que combina precisión y exhaustividad en un solo valor armónico, siendo especialmente útil cuando los datos están desbalanceados.
 

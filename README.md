@@ -57,7 +57,6 @@ pip install -r requirements.txt
 2. Estructura esperada del dataset:
 
 Imágenes: Almacenadas en subcarpetas según el paciente.
-Datos Tabulares: Archivo CSV con columnas como edad, densidad, BIRADS, etc.
 
 ## Resultados
 Matriz de Confusión

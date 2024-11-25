@@ -66,7 +66,7 @@ Imágenes: Almacenadas en subcarpetas según el paciente.
 
 ## Resultados
 Matriz de Confusión
-
+!(matriz_confusion.png)
 
 Métrica F1-Score
 Resalta los valores obtenidos durante el entrenamiento y la validación.

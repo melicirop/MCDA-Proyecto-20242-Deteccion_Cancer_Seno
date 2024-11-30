@@ -29,6 +29,7 @@ Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar
 
     * Escalado de características clínicas (edad, densidad, etc.) mediante StandardScaler.
     * Combinación con características extraídas de imágenes.
+    * Manejo de nulos en caracteristica relevante: Simulación de Monte Carlos básica.
 
 * Entrenamiento y Evaluación:
 

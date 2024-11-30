@@ -116,7 +116,7 @@ Resultados del proceso:
 ![Despliegue en gradio](https://github.com/melicirop/MCDA-Proyecto-20242-Deteccion_Cancer_Seno/blob/main/Despliegue.png)
 
 ## Autores
-Mateo Holguin Carvalho
-Melissa Andrea Ciro
-Fabian Sanchez Martinez
-Jorge Zapata Posada
+* Mateo Holguin Carvalho
+* Melissa Andrea Ciro
+* Fabian Sanchez Martinez
+* Jorge Zapata Posada

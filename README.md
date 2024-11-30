@@ -11,9 +11,6 @@ Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar
 
 ## Estructura del proyecto
 
-* Desarrollo:
-    * 
-
 * Notebooks:
     * En la carpeta Notebooks podrá encontrar los notebooks documentados para fines educativos, deben estudiarse y ejecutarse en el orden en el que se encuentran enumerados
 

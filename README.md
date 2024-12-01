@@ -9,6 +9,8 @@ Redes densas para procesar variables tabulares (edad, densidad mamaria, etc.).
 Un modelo combinado que une ambas ramas para realizar una clasificación binaria: Cáncer o No Cáncer.
 Además, se incluye una interfaz amigable desarrollada con Gradio para facilitar su uso por profesionales médicos.
 
+El dataset para el entrenamiento fue tomado de la competencia [RSNA Screening Mammography Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
+
 ## Estructura del proyecto
 
 * Notebooks:
